@@ -10,7 +10,7 @@ const Contact = () => {
       <Header/>
       <ContactStyle>
         <div className='form'>
-          <form action="https://formsubmit.co/juancamidm@gmail.com" method="POST">
+          <form action="https://formsubmit.co/juancamidm@hotmail.com" method="POST">
           <TextField id="nombre" name='name' label="Nombre" variant="standard" className='inputForm' />
           <br />
           <TextField type="email" id="email" name='email' label="Email" variant="standard" className='inputForm'/>
@@ -21,7 +21,7 @@ const Contact = () => {
           <br />
           <TextField id="text" name='text' label="¿En qué podemos ayudarte?" variant="standard" className='inputForm'/>
           <input className='submit' type="submit" value="Enviar" />
-          <input type="hidden" name='_next' value="http://localhost:3000/" />
+          <input type="hidden" name='_next' value="https://fcc-juancdoncel.vercel.app/" />
           <input type="hidden" name='_captcha' value="false" />
 
           </form>
