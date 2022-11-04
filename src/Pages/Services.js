@@ -83,6 +83,8 @@ export const Services = () => {
             description="Instalación de panel en fachada"
             proyect="Estadio Bello Horizonte"
             ubication="Villavicencio-Meta"
+            antes = "Antes"
+            despues = "Después"
           />
         ) : null}
 
@@ -92,19 +94,22 @@ export const Services = () => {
             image1={cieloRasoAntes}
             image2={cieloRasoDespues}
             description="Cambio de panel – Instalación de panel"
-            proyect="Mall Plaza - Clínica Country – La Florida"
+            proyect="Clínica Country – La Florida"
             ubication="Cartagena- Bogotá D.C."
+            antes = "Cambio de panel"
+            despues = "Instalación de panel"
           />
         ) : null}
 
         {service === "mantenimiento" ? (
           <Service
-            title="Mantenimiento de Fachadas, Cubiertas y cielo rasos"
+            title="Mantenimiento de Fachadas, Cubiertas y cielo raso"
             image1={mantenimientoAntes}
             image2={mantenimientoDespues}
             description="Mantenimiento – pintura de cubierta"
             proyect="Zona franca metropolitana - Arena Movistar"
             ubication="Bogotá D.C"
+
           />
         ) : null}
 
@@ -116,6 +121,8 @@ export const Services = () => {
             description="Instalación de Cubierta"
             proyect="Bodegas Sigma"
             ubication="Bogotá D.C"
+            antes = "Antes"
+            despues = "Después"
           />
         ) : null}
 

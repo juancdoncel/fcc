@@ -7,12 +7,12 @@ const Service = (props) => {
       <h1 className="title ">{props.title}</h1>
       <div className="images">
         <div className="image">
-        Antes
+        {props.antes}
           <img src={props.image1} alt="" />
         </div>
 
         <div className="image">
-          Después
+          {props.despues}
           <img src={props.image2} alt="" />
         </div>
       </div>

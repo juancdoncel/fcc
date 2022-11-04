@@ -18,7 +18,7 @@ function Home() {
             Especialistas en la instalación de cubiertas, fachadas, cielo raso.
           </div>
           <div>
-            Respaldados por una experiencia de Más de 15 años como expertos en
+            Respaldados por una experiencia de más de 15 años como expertos en
             montaje e instalación.
           </div>
           <div>

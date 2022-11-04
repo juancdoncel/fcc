@@ -53,6 +53,10 @@ const Footer = () => {
         >
           <div>¿Quienes somos?</div>
         </Link>
+        <br />
+        Calle 18 sur N 57 - 25 Bogota D.C
+          <br />
+            jcanonfcc@gmail.com - 324 566 0337 <br/> gdoncelfcc@gmail.com - 300 450 8777 <br/>
       </div>
     </FooterStyle>
   );

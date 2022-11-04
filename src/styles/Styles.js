@@ -296,7 +296,7 @@ export const ContactStyle = styled.section`
 
   .title{
     color: #004089;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
   }
   .form{
@@ -304,5 +304,9 @@ export const ContactStyle = styled.section`
     flex-direction: column;
     align-items: center;
     margin-left: 20%;
+  }
+
+  .subtitle{
+    font-size: 20px;
   }
 `;
