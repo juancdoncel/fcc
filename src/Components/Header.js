@@ -11,59 +11,60 @@ const Header = () => {
         <Link
           to={"/"}
         >
-          FCC IN BLAU S.A.S &nbsp;
+          FCC
+           IN BLAU S.A.S &nbsp;
         </Link>
       </div>
       <div className="navBar">
         {pathName === "/" ? (
           <div className="on">
             <Link to={"/"}>
-              <button className="on"> Inicio </button>
+              <button className="on"> INICIO </button>
             </Link>
           </div>
         ) : (
           <div className="off">
             <Link to={"/"}>
-              <button className="off">Inicio</button>
+              <button className="off">INICIO</button>
             </Link>
           </div>
         )}
         {pathName === "/nosotros" ? (
           <div className="on">
             <Link to={"/nosotros"}>
-              <button className="on"> Nosotros </button>
+              <button className="on"> SOBRE NOSOTROS </button>
             </Link>
           </div>
         ) : (
           <div className="off">
             <Link to={"/nosotros"}>
-              <button className="off">Nosotros</button>
+              <button className="off"> SOBRE NOSOTROS</button>
             </Link>
           </div>
         )}
         {pathName === "/servicios" ? (
           <div className="on">
             <Link to={"/servicios"}>
-              <button className="on"> Servicios </button>
+              <button className="on"> SERVICIOS </button>
             </Link>
           </div>
         ) : (
           <div className="off">
             <Link to={"/servicios"}>
-              <button className="off">Servicios</button>
+              <button className="off">SERVICIOS</button>
             </Link>
           </div>
         )}
         {pathName === "/contacto" ? (
           <div className="on">
             <Link to={"/contacto"}>
-              <button className="on"> Contactenos </button>
+              <button className="on"> CONTACTENOS </button>
             </Link>
           </div>
         ) : (
           <div className="off">
             <Link to={"/contacto"}>
-              <button className="off">Contactenos</button>
+              <button className="off">CONTACTENOS</button>
             </Link>
           </div>
         )}

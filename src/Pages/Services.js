@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import { ServiceStyle } from "../styles/Styles";
 import fachada from "../assets/fachada-removebg-preview.png";
 import mantenimiento from "../assets/mantenimiento__1_-removebg-preview.png";
-import cubierta from "../assets/Cubierta.png";
+import cubierta from "../assets/cubierta.png";
 import cieloraso from "../assets/CieloRaso.png";
 import Service from "../Components/Service";
 import fachadaAntes from "../assets/Fachada1.jpeg";
@@ -16,6 +16,7 @@ import cubiertaAntes from "../assets/cubierta1.jpeg";
 import cubiertaDespues from "../assets/cubierta2.jpeg";
 import Footer from "../Components/Footer";
 import { ServiceContext } from "../context/serviceContext";
+import { NavBar } from "../Components/NavBar";
 
 export const Services = () => {
   const {service, setService} = useContext(ServiceContext)
@@ -120,6 +121,7 @@ export const Services = () => {
         ) : null}
 
         <Footer />
+        <NavBar/>
     </>
   );
 };

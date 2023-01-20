@@ -3,12 +3,13 @@ import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import TextField from '@mui/material/TextField';
 import { ContactStyle } from '../styles/Styles'
+import { NavBar } from '../Components/NavBar';
 
 const Contact = () => {
   return (
     <>
-      <Header/>
       <ContactStyle>
+        <Header/>
         <div className='form'>
           <form action="https://formsubmit.co/juancamidm@gmail.com" method="POST">
           <TextField id="nombre" name='name' label="Nombre" variant="standard" className='inputForm' />
@@ -27,7 +28,7 @@ const Contact = () => {
           </form>
         </div>
         <div className='datosContacto'>
-          <span className='title'>Datos de contacto:</span>
+          <span className='title-contact'>Datos de contacto:</span>
           <div>
           <br />
             jcanonfcc@gmail.com - 324 566 0337 <br/> gdoncel@gmail.com - 300 450 8777 <br/>
@@ -36,6 +37,7 @@ const Contact = () => {
         </div>
       </ContactStyle>
       <Footer/>
+      <NavBar/>
     
     </>
   )
